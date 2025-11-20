@@ -12,9 +12,9 @@ El flujo general del sistema:
 * **2.-** El microcontrolador Maestro recibe esos comandos por UART, los interpreta y los muestra en un LCD 16×2.  
 * **3.-** El Maestro reenvía los comandos hacia el microcontrolador Esclavo mediante SPI.  
 * **4.-** El Esclavo ejecuta las tareas principales:  
-> * **4.1.-** Lee dos fotoresistencias mediante ADC.  
-> * **4.2.-** Controla un motor DC mediante PWM y un puente H.  
-> * **4.3.-** Mide las RPM del motor utilizando un sensor infrarrojo tipo herradura.  
+* * **4.1.-** Lee dos fotoresistencias mediante ADC.  
+* * **4.2.-** Controla un motor DC mediante PWM y un puente H.  
+* * **4.3.-** Mide las RPM del motor utilizando un sensor infrarrojo tipo herradura.  
 * **5.-** El Esclavo devuelve información al Maestro vía SPI.  
 * **6.-** El Maestro muestra los datos en el LCD y los envía al celular vía Bluetooth.  
 
