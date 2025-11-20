@@ -1,6 +1,8 @@
 # Master-Slave-System-Comunication-Protocols-Integration
 Sistema Maestro–Esclavo con Comunicación UART/Bluetooth y SPI, Sensado Analógico y Control de Motor DC
 
+<img width="1218" height="564" alt="image" src="https://github.com/user-attachments/assets/12aaf53e-92c5-4592-a084-64e2274145ae" />
+
 _____________________________________________________________________________________
 ## 🧩 Descripción General
 
