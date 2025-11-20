@@ -83,7 +83,36 @@ ________________________________________________________________________________
 _____________________________________________________________________________________
 ## 📝 Rúbrica de Evaluación (100 puntos)
 
-asdasd
+| Criteria | Description | Points |
+|---|---|---|
+| **UART–Bluetooth Communication** | **Recepción correcta de comandos, envío de respuestas y manejo básico de errores. -->** | **15** |
+| - Command handling | Interpretación adecuada de comandos provenientes del celular | 10 |
+| - Feedback formatting | Respuesta clara, estructurada y consistente | 5 |
+| **LCD 16×2 Display (Master)** | **Visualización clara del estado del sistema -->** | **10** |
+| - Correct LCD updates | Cambios en tiempo real según eventos del sistema | 7 |
+| - Readability | Mensajes breves y bien presentados | 3 |
+| **SPI Master–Slave Protocol** | **Comunicación correcta, sincronización y estabilidad -->** | **15** |
+| - Correct SPI framing | Envío/recepción adecuada de datos | 10 |
+| - Error handling | Manejo básico de fallas de comunicación | 5 |
+| **ADC – Light Sensors (Slave)** | **Medición estable de dos canales ADC -->** | **10** |
+| - Correct ADC configuration | Referencia, prescaler y selección de canal | 7 |
+| - Stable sensor reading | Valores coherentes y sin ruido excesivo | 3 |
+| **PWM – Motor Control (Slave)** | **Control correcto de velocidad del motor DC -->** | **10** |
+| - Duty-cycle variation | Respuesta del motor a múltiples niveles PWM | 7 |
+| - Stability | PWM sin jitter perceptible | 3 |
+| **RPM Measurement via Encoder (Slave)** | **Conteo confiable mediante interrupciones -->** | **15** |
+| - Correct pulse counting | Uso adecuado de interrupciones o captura de eventos | 10 |
+| - RPM calculation | Conversión precisa a unidades de RPM | 5 |
+| **Command Protocol Design** | **Estructura clara del conjunto de comandos -->** | **10** |
+| - Minimum 5 commands | Implementados y documentados | 5 |
+| - Logical structure | Sintaxis consistente y fácil de entender | 5 |
+| **System Integration** | **Funcionamiento estable entre Maestro–Esclavo–Usuario -->** | **10** |
+| - Full system workflow | Flujo continuo sin fallos | 7 |
+| - User interaction | Operación intuitiva y bien organizada | 3 |
+| **Technical Report and Evidence** | **Documentación y demostración del proyecto -->** | **5** |
+| - Report and schematic | Reporte claro, esquemas correctos | 3 |
+| - Video demonstration | Demostración funcional del sistema | 2 |
+
 
 _____________________________________________________________________________________
 ## 📤 Entrega Final
