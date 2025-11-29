@@ -1,5 +1,7 @@
 # Master-Slave-System-Comunication-Protocols-Integration
-Sistema Maestro–Esclavo con Comunicación UART/Bluetooth y SPI, Sensado Analógico y Control de Motor DC
+Sistema Maestro–Esclavo con Comunicación UART/Bluetooth y SPI, Sensado Analógico I2C* (TWI) y Control de Motor DC.
+
+Nota: I2C* (TWI) no aplicacrá para versiones de entregas UP-MIC2-2025
 
 <img width="1218" height="564" alt="image" src="https://github.com/user-attachments/assets/12aaf53e-92c5-4592-a084-64e2274145ae" />
 
